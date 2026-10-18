@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1a24" />
+      <stop offset="50%" stop-color="#0e2333" />
+      <stop offset="100%" stop-color="#07151e" />
+    </linearGradient>
+    <linearGradient id="cardGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#123046" />
+      <stop offset="100%" stop-color="#0b2030" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="cardShadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="580" fill="url(#bgGrad4)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#0284c7" stroke-opacity="0.07" stroke-width="1">
+    <line x1="0" y1="60" x2="1000" y2="60" />
+    <line x1="0" y1="120" x2="1000" y2="120" />
+    <line x1="0" y1="180" x2="1000" y2="180" />
+    <line x1="0" y1="240" x2="1000" y2="240" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="360" x2="1000" y2="360" />
+    <line x1="0" y1="420" x2="1000" y2="420" />
+    <line x1="0" y1="480" x2="1000" y2="480" />
+    <line x1="0" y1="540" x2="1000" y2="540" />
+  </g>
+
+  <!-- Step Header Banner -->
+  <rect x="40" y="24" width="920" height="56" rx="10" fill="#0c2f45" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" />
+  <rect x="56" y="36" width="76" height="32" rx="6" fill="#0284c7" />
+  <text x="94" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 04</text>
+  <text x="146" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Assertive Resolution Script &amp; Text-to-Speech Playback</text>
+  <rect x="760" y="38" width="184" height="28" rx="14" fill="#075985" stroke="#38bdf8" stroke-width="1" />
+  <circle cx="776" cy="52" r="5" fill="#38bdf8" />
+  <text x="788" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#bae6fd">Audio &amp; Speech Playback</text>
+
+  <!-- Left Card: The Dealing Script Box -->
+  <rect x="40" y="96" width="530" height="448" rx="12" fill="url(#cardGrad4)" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" filter="url(#cardShadow4)" />
+  
+  <!-- Script Header -->
+  <rect x="56" y="112" width="220" height="28" rx="6" fill="#08283d" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1" />
+  <text x="68" y="131" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38bdf8">💬 SMART RESOLUTION SCRIPT</text>
+
+  <rect x="410" y="112" width="144" height="30" rx="6" fill="#0284c7" />
+  <text x="482" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">📋 Copy Script</text>
+
+  <!-- Speech bubble container -->
+  <rect x="56" y="156" width="498" height="236" rx="10" fill="#071b29" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" />
+  <text x="80" y="188" font-family="Georgia, serif" font-size="28" fill="#38bdf8">“</text>
+  <text x="100" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500" fill="#f8fafc" line-height="24">
+    <tspan x="100" dy="0">"Sir/Madam, as per Section 138 of the Indian Railways</tspan>
+    <tspan x="100" dy="26">Act 1989, traveling without a physical ticket requires</tspan>
+    <tspan x="100" dy="26">payment of the base fare for my distance plus the</tspan>
+    <tspan x="100" dy="26">statutory excess charge of ₹250.</tspan>
+    <tspan x="100" dy="30" font-weight="700" fill="#38bdf8">The legal maximum payable is approx ₹700, NOT ₹20,000.</tspan>
+    <tspan x="100" dy="28">Please issue an official serialized Excess Fare Ticket (EFT)</tspan>
+    <tspan x="100" dy="26">receipt. I am ready to pay against a government receipt</tspan>
+    <tspan x="100" dy="26">immediately or call RailMadad 139 to verify."</tspan>
+  </text>
+
+  <!-- Usage Directives -->
+  <rect x="56" y="408" width="498" height="116" rx="8" fill="#042019" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <text x="74" y="432" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#34d399">TACTICAL CITIZEN INSTRUCTIONS:</text>
+  <text x="74" y="454" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ecfdf5">• Read this script assertively without raising your voice or getting agitated.</text>
+  <text x="74" y="474" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ecfdf5">• Never accept personal UPI QR codes or unreceipted cash requests.</text>
+  <text x="74" y="494" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ecfdf5">• Mentioning the exact Act &amp; Section defuses 95% of on-spot extortion attempts.</text>
+
+  <!-- Right Card: TTS Player & Multilingual Voice Synthesis -->
+  <rect x="590" y="96" width="370" height="448" rx="12" fill="url(#cardGrad4)" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" filter="url(#cardShadow4)" />
+  <text x="614" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#bae6fd">LIVE AUDIO PLAYBACK (TTS)</text>
+
+  <!-- Active Playing Widget -->
+  <rect x="614" y="152" width="322" height="154" rx="10" fill="#061c2c" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1" />
+  
+  <!-- Big Audio Wave Pulsing -->
+  <circle cx="664" cy="214" r="32" fill="#0284c7" />
+  <polygon points="656,200 656,228 678,214" fill="#ffffff" />
+
+  <text x="716" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Voice Audio Active</text>
+  <text x="716" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#38bdf8">Reading resolution script</text>
+  <text x="716" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Language: te-IN / en-IN</text>
+
+  <!-- Audio Progress line -->
+  <line x1="634" y1="274" x2="916" y2="274" stroke="#0c2f45" stroke-width="6" stroke-linecap="round" />
+  <line x1="634" y1="274" x2="780" y2="274" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" />
+  <circle cx="780" cy="274" r="6" fill="#ffffff" />
+  <text x="634" y="296" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">00:18</text>
+  <text x="916" y="296" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">00:42</text>
+
+  <!-- Dynamic Translation Selector -->
+  <text x="614" y="336" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#7dd3fc">TRANSLATE REPORT ON-THE-FLY</text>
+  <rect x="614" y="348" width="322" height="42" rx="8" fill="#082030" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" />
+  <text x="632" y="374" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#ffffff">🌐 Telugu (తెలుగు)</text>
+  <text x="916" y="374" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#38bdf8" text-anchor="end">Switch ▾</text>
+
+  <!-- Supported Languages Tag Cloud -->
+  <text x="614" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#7dd3fc">SUPPORTED 50+ A-Z LANGUAGES:</text>
+  <g fill="#0c2838" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1">
+    <rect x="614" y="432" width="70" height="26" rx="4" />
+    <rect x="692" y="432" width="66" height="26" rx="4" />
+    <rect x="766" y="432" width="66" height="26" rx="4" />
+    <rect x="840" y="432" width="96" height="26" rx="4" />
+    <rect x="614" y="466" width="76" height="26" rx="4" />
+    <rect x="698" y="466" width="74" height="26" rx="4" />
+    <rect x="780" y="466" width="74" height="26" rx="4" />
+    <rect x="862" y="466" width="74" height="26" rx="4" />
+    <rect x="614" y="500" width="86" height="26" rx="4" />
+    <rect x="708" y="500" width="86" height="26" rx="4" />
+    <rect x="802" y="500" width="134" height="26" rx="4" />
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#bae6fd" text-anchor="middle">
+    <text x="649" y="450">Telugu</text>
+    <text x="725" y="450">Hindi</text>
+    <text x="799" y="450">Tamil</text>
+    <text x="888" y="450">Kannada</text>
+    <text x="652" y="484">Marathi</text>
+    <text x="735" y="484">Bengali</text>
+    <text x="817" y="484">Gujarati</text>
+    <text x="899" y="484">Punjabi</text>
+    <text x="657" y="518">Malayalam</text>
+    <text x="751" y="518">Spanish</text>
+    <text x="869" y="518">+ 40 More Global</text>
+  </g>
+</svg>

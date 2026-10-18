@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1d18" />
+      <stop offset="50%" stop-color="#0e2a22" />
+      <stop offset="100%" stop-color="#081814" />
+    </linearGradient>
+    <linearGradient id="cardGrad5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#12382e" />
+      <stop offset="100%" stop-color="#0b241e" />
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <filter id="cardShadow5" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="580" fill="url(#bgGrad5)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#10b981" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="60" x2="1000" y2="60" />
+    <line x1="0" y1="120" x2="1000" y2="120" />
+    <line x1="0" y1="180" x2="1000" y2="180" />
+    <line x1="0" y1="240" x2="1000" y2="240" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="360" x2="1000" y2="360" />
+    <line x1="0" y1="420" x2="1000" y2="420" />
+    <line x1="0" y1="480" x2="1000" y2="480" />
+    <line x1="0" y1="540" x2="1000" y2="540" />
+  </g>
+
+  <!-- Step Header Banner -->
+  <rect x="40" y="24" width="920" height="56" rx="10" fill="#0d2e26" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <rect x="56" y="36" width="76" height="32" rx="6" fill="#10b981" />
+  <text x="94" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#04221b" text-anchor="middle">STEP 05</text>
+  <text x="146" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Official Government Escalation Helplines &amp; Query Audit Trail</text>
+  <rect x="790" y="38" width="154" height="28" rx="14" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+  <circle cx="806" cy="52" r="5" fill="#34d399" />
+  <text x="818" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">24x7 Verified Lines</text>
+
+  <!-- Left Column: Verified Government Escalation Helplines -->
+  <rect x="40" y="96" width="480" height="448" rx="12" fill="url(#cardGrad5)" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" filter="url(#cardShadow5)" />
+  <text x="64" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#a7f3d0">VERIFIED GOVERNMENT ESCALATION DIRECTORY</text>
+
+  <!-- Helpline Card 1: RailMadad -->
+  <rect x="64" y="146" width="432" height="84" rx="8" fill="#07201a" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <circle cx="98" cy="188" r="20" fill="#064e3b" stroke="#34d399" stroke-width="1.5" />
+  <text x="98" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#34d399" text-anchor="middle">139</text>
+  <text x="132" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">RailMadad 24x7 Helpline</text>
+  <text x="132" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Immediate on-train TTE extortion &amp; ticket grievance resolution</text>
+  <text x="132" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8">Portal: railmadad.indianrailways.gov.in • Instant Dial: 139</text>
+
+  <!-- Helpline Card 2: Cybercrime -->
+  <rect x="64" y="240" width="432" height="84" rx="8" fill="#07201a" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <circle cx="98" cy="282" r="20" fill="#450a0a" stroke="#ef4444" stroke-width="1.5" />
+  <text x="98" y="288" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#fca5a5" text-anchor="middle">1930</text>
+  <text x="132" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">National Cyber Crime Reporting Helpline</text>
+  <text x="132" y="288" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Instant freeze on unauthorized financial transactions within 24h</text>
+  <text x="132" y="306" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8">Ministry of Home Affairs • cybercrime.gov.in</text>
+
+  <!-- Helpline Card 3: Consumer Protection -->
+  <rect x="64" y="334" width="432" height="84" rx="8" fill="#07201a" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <circle cx="98" cy="376" r="20" fill="#064e3b" stroke="#34d399" stroke-width="1.5" />
+  <text x="98" y="382" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#34d399" text-anchor="middle">1915</text>
+  <text x="132" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">National Consumer Helpline (NCH / CCPA)</text>
+  <text x="132" y="382" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Overcharging, false penalties, unfair trade practices &amp; e-commerce</text>
+  <text x="132" y="400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8">Toll-Free: 1915 • WhatsApp: 8800001915 • consumerhelpline.gov.in</text>
+
+  <!-- Helpline Card 4: RBI Banking Ombudsman -->
+  <rect x="64" y="428" width="432" height="84" rx="8" fill="#07201a" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <circle cx="98" cy="470" r="20" fill="#075985" stroke="#38bdf8" stroke-width="1.5" />
+  <text x="98" y="475" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">14448</text>
+  <text x="132" y="456" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">RBI Integrated Ombudsman (CMS)</text>
+  <text x="132" y="476" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Unlawful bank charges, minimum balance fines &amp; card scams</text>
+  <text x="132" y="494" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8">Reserve Bank of India • cms.rbi.org.in • Call 14448</text>
+
+  <!-- Right Column: History Drawer & Query Audit Records -->
+  <rect x="540" y="96" width="420" height="448" rx="12" fill="url(#cardGrad5)" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" filter="url(#cardShadow5)" />
+  <text x="564" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#a7f3d0">SAVED INCIDENTS &amp; AUDIT RECORD TRAIL</text>
+
+  <!-- Record Item 1 -->
+  <rect x="564" y="146" width="372" height="88" rx="8" fill="#07201a" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" />
+  <rect x="578" y="158" width="138" height="20" rx="4" fill="#450a0a" />
+  <text x="584" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#fca5a5">EXTORTION DEFENDED</text>
+  <text x="922" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">Oct 18, 11:34 AM</text>
+  <text x="578" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Train Fine: TTE demanding ₹20,000 cash</text>
+  <text x="578" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6ee7b7">Section 138 Railways Act • Saved: ₹19,250 • India</text>
+
+  <!-- Record Item 2 -->
+  <rect x="564" y="244" width="372" height="88" rx="8" fill="#07201a" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" />
+  <rect x="578" y="256" width="138" height="20" rx="4" fill="#064e3b" />
+  <text x="584" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#34d399">UNLAWFUL BANK CHARGE</text>
+  <text x="922" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">Oct 16, 04:12 PM</text>
+  <text x="578" y="294" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ffffff">₹850 Minimum Balance Penalty Reversal</text>
+  <text x="578" y="312" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6ee7b7">RBI Master Circular DBR.No.Leg.BC.21 • India</text>
+
+  <!-- Record Item 3 -->
+  <rect x="564" y="342" width="372" height="88" rx="8" fill="#07201a" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" />
+  <rect x="578" y="354" width="128" height="20" rx="4" fill="#075985" />
+  <text x="584" y="368" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#7dd3fc">CONSUMER OVERCHARGE</text>
+  <text x="922" y="368" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">Oct 12, 02:40 PM</text>
+  <text x="578" y="392" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Restaurant Mandatory Service Charge 10%</text>
+  <text x="578" y="410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6ee7b7">CCPA Guidelines &amp; Consumer Act Sec 2(47)</text>
+
+  <!-- Export & Record Control -->
+  <rect x="564" y="442" width="372" height="70" rx="8" fill="#03211a" stroke="#10b981" stroke-opacity="0.2" stroke-width="1" />
+  <text x="578" y="466" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#34d399">OFFLINE RECORD KEEPING &amp; EVIDENCE</text>
+  <text x="578" y="484" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#ecfdf5">• Records persist in client localStorage and can be reloaded instantly.</text>
+  <text x="578" y="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#ecfdf5">• Serves as formal timestamped evidence for police &amp; consumer court filing.</text>
+</svg>

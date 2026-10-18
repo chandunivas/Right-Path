@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061c18" />
+      <stop offset="50%" stop-color="#0b2923" />
+      <stop offset="100%" stop-color="#081814" />
+    </linearGradient>
+    <linearGradient id="accentEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13332c" />
+      <stop offset="100%" stop-color="#0d241f" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="580" fill="url(#bgGrad1)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#10b981" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="60" x2="1000" y2="60" />
+    <line x1="0" y1="120" x2="1000" y2="120" />
+    <line x1="0" y1="180" x2="1000" y2="180" />
+    <line x1="0" y1="240" x2="1000" y2="240" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="360" x2="1000" y2="360" />
+    <line x1="0" y1="420" x2="1000" y2="420" />
+    <line x1="0" y1="480" x2="1000" y2="480" />
+    <line x1="0" y1="540" x2="1000" y2="540" />
+    <line x1="100" y1="0" x2="100" y2="580" />
+    <line x1="300" y1="0" x2="300" y2="580" />
+    <line x1="500" y1="0" x2="500" y2="580" />
+    <line x1="700" y1="0" x2="700" y2="580" />
+    <line x1="900" y1="0" x2="900" y2="580" />
+  </g>
+
+  <!-- Step Header Banner -->
+  <rect x="40" y="24" width="920" height="56" rx="10" fill="#0d2e26" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <rect x="56" y="36" width="76" height="32" rx="6" fill="#10b981" />
+  <text x="94" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#04221b" text-anchor="middle">STEP 01</text>
+  <text x="146" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Incident Capture &amp; Multilingual Voice / Text Input</text>
+  <rect x="810" y="38" width="134" height="28" rx="14" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+  <circle cx="826" cy="52" r="5" fill="#34d399" />
+  <text x="838" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">WebSpeech API</text>
+
+  <!-- Left Card: Mode & Jurisdiction Configuration -->
+  <rect x="40" y="96" width="340" height="448" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" filter="url(#cardShadow)" />
+  <text x="64" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#a7f3d0">INPUT METHOD &amp; JURISDICTION</text>
+  
+  <!-- Toggle Buttons -->
+  <rect x="64" y="146" width="140" height="38" rx="8" fill="#10b981" />
+  <text x="134" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#04221b" text-anchor="middle">🎙️ Voice Record</text>
+
+  <rect x="214" y="146" width="140" height="38" rx="8" fill="#0a211c" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <text x="284" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#94a3b8" text-anchor="middle">⌨️ Type Incident</text>
+
+  <!-- Language Selector Field -->
+  <text x="64" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">SPOKEN LANGUAGE</text>
+  <rect x="64" y="224" width="292" height="40" rx="8" fill="#091f1a" stroke="#10b981" stroke-opacity="0.35" stroke-width="1" />
+  <text x="80" y="249" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#ffffff">Telugu (తెలుగు - te-IN)</text>
+  <text x="330" y="249" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#6ee7b7">▾</text>
+
+  <!-- Jurisdiction Location -->
+  <text x="64" y="294" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">JURISDICTION COUNTRY &amp; REGION</text>
+  <rect x="64" y="304" width="292" height="40" rx="8" fill="#091f1a" stroke="#10b981" stroke-opacity="0.35" stroke-width="1" />
+  <text x="80" y="329" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#ffffff">🇮🇳 India (Delhi / NCR)</text>
+
+  <!-- User Profile Context -->
+  <text x="64" y="374" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">CITIZEN PROFILE</text>
+  <rect x="64" y="384" width="292" height="60" rx="8" fill="#091f1a" stroke="#10b981" stroke-opacity="0.2" stroke-width="1" />
+  <circle cx="94" cy="414" r="16" fill="#10b981" />
+  <text x="94" y="419" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#04221b" text-anchor="middle">AS</text>
+  <text x="122" y="408" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Anand Sharma</text>
+  <text x="122" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">+91 98765 43210 • Verified Profile</text>
+
+  <!-- Output Translation Rule -->
+  <rect x="64" y="460" width="292" height="60" rx="8" fill="#064e3b" fill-opacity="0.3" stroke="#34d399" stroke-opacity="0.3" stroke-width="1" />
+  <text x="76" y="482" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#34d399">OUTPUT TRANSLATION RULE:</text>
+  <text x="76" y="502" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#e2e8f0">Auto-match spoken language or translate to 50+ A-Z languages</text>
+
+  <!-- Right Card: Live Speech Visualizer & Incident Transcription -->
+  <rect x="400" y="96" width="560" height="448" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" filter="url(#cardShadow)" />
+  <text x="424" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#a7f3d0">REAL-TIME VOICE STREAM &amp; INCIDENT STATEMENT</text>
+
+  <!-- Live Audio Waveform Visualizer -->
+  <rect x="424" y="146" width="512" height="90" rx="10" fill="#071b16" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <g fill="#10b981">
+    <rect x="444" y="176" width="5" height="30" rx="2" />
+    <rect x="456" y="166" width="5" height="50" rx="2" />
+    <rect x="468" y="160" width="5" height="62" rx="2" />
+    <rect x="480" y="170" width="5" height="42" rx="2" />
+    <rect x="492" y="152" width="5" height="78" rx="2" fill="#34d399" />
+    <rect x="504" y="164" width="5" height="54" rx="2" fill="#34d399" />
+    <rect x="516" y="174" width="5" height="34" rx="2" />
+    <rect x="528" y="158" width="5" height="66" rx="2" fill="#34d399" />
+    <rect x="540" y="150" width="5" height="82" rx="2" fill="#6ee7b7" />
+    <rect x="552" y="162" width="5" height="58" rx="2" fill="#34d399" />
+    <rect x="564" y="172" width="5" height="38" rx="2" />
+    <rect x="576" y="154" width="5" height="74" rx="2" fill="#34d399" />
+    <rect x="588" y="168" width="5" height="46" rx="2" />
+    <rect x="600" y="178" width="5" height="26" rx="2" />
+    <rect x="612" y="160" width="5" height="62" rx="2" fill="#34d399" />
+    <rect x="624" y="152" width="5" height="78" rx="2" fill="#6ee7b7" />
+    <rect x="636" y="166" width="5" height="50" rx="2" fill="#34d399" />
+    <rect x="648" y="174" width="5" height="34" rx="2" />
+    <rect x="660" y="158" width="5" height="66" rx="2" fill="#34d399" />
+    <rect x="672" y="150" width="5" height="82" rx="2" fill="#6ee7b7" />
+    <rect x="684" y="164" width="5" height="54" rx="2" fill="#34d399" />
+    <rect x="696" y="172" width="5" height="38" rx="2" />
+    <rect x="708" y="156" width="5" height="70" rx="2" fill="#34d399" />
+    <rect x="720" y="168" width="5" height="46" rx="2" />
+    <rect x="732" y="176" width="5" height="30" rx="2" />
+    <rect x="744" y="160" width="5" height="62" rx="2" fill="#34d399" />
+    <rect x="756" y="152" width="5" height="78" rx="2" fill="#6ee7b7" />
+    <rect x="768" y="164" width="5" height="54" rx="2" fill="#34d399" />
+    <rect x="780" y="174" width="5" height="34" rx="2" />
+    <rect x="792" y="158" width="5" height="66" rx="2" fill="#34d399" />
+    <rect x="804" y="166" width="5" height="50" rx="2" fill="#34d399" />
+    <rect x="816" y="176" width="5" height="30" rx="2" />
+    <rect x="828" y="162" width="5" height="58" rx="2" />
+    <rect x="840" y="172" width="5" height="38" rx="2" />
+    <rect x="852" y="178" width="5" height="26" rx="2" />
+    <rect x="864" y="168" width="5" height="46" rx="2" />
+    <rect x="876" y="174" width="5" height="34" rx="2" />
+    <rect x="888" y="180" width="5" height="22" rx="2" />
+    <rect x="900" y="176" width="5" height="30" rx="2" />
+    <rect x="912" y="182" width="5" height="18" rx="2" />
+  </g>
+  <circle cx="890" cy="166" r="6" fill="#ef4444" />
+  <text x="840" y="171" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#f87171">REC</text>
+
+  <!-- Live Transcript Box -->
+  <text x="424" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">DE-DUPLICATED LIVE TRANSCRIPTION</text>
+  <rect x="424" y="270" width="512" height="140" rx="8" fill="#091f1a" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <text x="444" y="302" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#ffffff" font-weight="500">"నేను రైలులో ప్రయాణిస్తున్నాను. టికెట్ తీసుకోలేదు.</text>
+  <text x="444" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#ffffff" font-weight="500">టిక్కెట్ కలెక్టర్ నన్ను రూ. 20,000 జరిమానా నగదుగా కట్టమంటున్నారు."</text>
+  <text x="444" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94a3b8" font-style="italic">English: "Traveling in train without physical ticket. T.C demanding ₹20,000 cash fine."</text>
+  <rect x="444" y="380" width="168" height="20" rx="4" fill="#064e3b" />
+  <text x="450" y="394" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#34d399">✓ Word Deduplication Active</text>
+
+  <!-- Action Verification Button -->
+  <rect x="424" y="430" width="512" height="50" rx="10" fill="url(#accentEmerald)" />
+  <text x="680" y="462" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">⚡ Verify Statutory Rights &amp; Detect Fraud →</text>
+</svg>

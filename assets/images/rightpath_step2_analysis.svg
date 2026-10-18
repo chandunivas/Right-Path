@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071822" />
+      <stop offset="50%" stop-color="#0b2433" />
+      <stop offset="100%" stop-color="#061622" />
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f2e42" />
+      <stop offset="100%" stop-color="#092030" />
+    </linearGradient>
+    <filter id="cardShadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="580" fill="url(#bgGrad2)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#0284c7" stroke-opacity="0.08" stroke-width="1">
+    <line x1="0" y1="60" x2="1000" y2="60" />
+    <line x1="0" y1="120" x2="1000" y2="120" />
+    <line x1="0" y1="180" x2="1000" y2="180" />
+    <line x1="0" y1="240" x2="1000" y2="240" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="360" x2="1000" y2="360" />
+    <line x1="0" y1="420" x2="1000" y2="420" />
+    <line x1="0" y1="480" x2="1000" y2="480" />
+    <line x1="0" y1="540" x2="1000" y2="540" />
+    <line x1="100" y1="0" x2="100" y2="580" />
+    <line x1="300" y1="0" x2="300" y2="580" />
+    <line x1="500" y1="0" x2="500" y2="580" />
+    <line x1="700" y1="0" x2="700" y2="580" />
+    <line x1="900" y1="0" x2="900" y2="580" />
+  </g>
+
+  <!-- Step Header Banner -->
+  <rect x="40" y="24" width="920" height="56" rx="10" fill="#0c3147" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" />
+  <rect x="56" y="36" width="76" height="32" rx="6" fill="#0284c7" />
+  <text x="94" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 02</text>
+  <text x="146" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Dual-Engine Statutory Research &amp; Fraud Gap Analysis</text>
+  <rect x="790" y="38" width="154" height="28" rx="14" fill="#075985" stroke="#38bdf8" stroke-width="1" />
+  <circle cx="806" cy="52" r="5" fill="#38bdf8" />
+  <text x="818" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#bae6fd">Gemini 3.6 + Fallback</text>
+
+  <!-- Top Progress Bar & Steps -->
+  <rect x="40" y="96" width="920" height="74" rx="10" fill="url(#cardGrad2)" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" />
+  <circle cx="70" cy="133" r="16" fill="#0284c7" />
+  <text x="70" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="96" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#bae6fd">Domain Analysis</text>
+  <text x="96" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#7dd3fc">Indian Railways / Transit</text>
+
+  <line x1="240" y1="133" x2="280" y2="133" stroke="#0284c7" stroke-width="2" stroke-dasharray="4" />
+
+  <circle cx="310" cy="133" r="16" fill="#0284c7" />
+  <text x="310" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="336" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#bae6fd">Statutory Search</text>
+  <text x="336" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#7dd3fc">Act 1989 &amp; RailMadad Circulars</text>
+
+  <line x1="495" y1="133" x2="535" y2="133" stroke="#0284c7" stroke-width="2" stroke-dasharray="4" />
+
+  <circle cx="565" cy="133" r="16" fill="#0284c7" />
+  <text x="565" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="591" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#bae6fd">Formula Calculation</text>
+  <text x="591" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#7dd3fc">Base Fare + ₹250 Excess Cap</text>
+
+  <line x1="740" y1="133" x2="780" y2="133" stroke="#0284c7" stroke-width="2" stroke-dasharray="4" />
+
+  <circle cx="810" cy="133" r="16" fill="#10b981" />
+  <text x="810" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#04221b" text-anchor="middle">✓</text>
+  <text x="836" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a7f3d0">Report Assembly</text>
+  <text x="836" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6ee7b7">Resolution Script Ready</text>
+
+  <!-- Left: Multi-Modal Engine Inspection -->
+  <rect x="40" y="186" width="450" height="358" rx="12" fill="url(#cardGrad2)" stroke="#0284c7" stroke-opacity="0.25" stroke-width="1" filter="url(#cardShadow2)" />
+  <text x="64" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#bae6fd">AI &amp; STATUTORY INTELLIGENCE PIPELINE</text>
+
+  <!-- Pipeline Box 1: Gemini Grounded Search -->
+  <rect x="64" y="234" width="402" height="74" rx="8" fill="#082030" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" />
+  <text x="80" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">1. Primary Engine: Gemini 3.6 Flash</text>
+  <text x="80" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">System instruction: Elite Anti-Fraud &amp; Legal Rights Research.</text>
+  <text x="80" y="296" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">Temperature: 0.2 • Grounded in official legal and gazette portals.</text>
+
+  <!-- Pipeline Box 2: Secondary Engine -->
+  <rect x="64" y="322" width="402" height="74" rx="8" fill="#082030" stroke="#0284c7" stroke-opacity="0.3" stroke-width="1" />
+  <text x="80" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">2. Fallback Engine: Gemini 2.5 Flash</text>
+  <text x="80" y="366" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Automatic hot-swap on upstream rate limits or quota latency.</text>
+  <text x="80" y="384" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">Zero client crash guarantee • Sub-2.0s failover mechanism.</text>
+
+  <!-- Pipeline Box 3: Local Statutory Knowledge Base -->
+  <rect x="64" y="410" width="402" height="114" rx="8" fill="#04221b" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" />
+  <text x="80" y="434" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#34d399">3. Built-in Statutory Knowledge Engine (Zero-Quota Resilient)</text>
+  <text x="80" y="454" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#a7f3d0">• Pre-indexed Indian Railways Act 1989 (Sec 137, 138, EFT Rules)</text>
+  <text x="80" y="472" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#a7f3d0">• RBI Master Circulars (DBR.No.Leg.BC.21, 30-day SMS warning)</text>
+  <text x="80" y="490" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#a7f3d0">• Consumer Protection Act 2019 Sec 2(47) &amp; Motor Vehicles Act</text>
+  <text x="80" y="508" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6ee7b7">✓ Operates offline &amp; guarantees instant report even without internet.</text>
+
+  <!-- Right: Verification Matrix & Fraud Detection -->
+  <rect x="510" y="186" width="450" height="358" rx="12" fill="url(#cardGrad2)" stroke="#0284c7" stroke-opacity="0.25" stroke-width="1" filter="url(#cardShadow2)" />
+  <text x="534" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#bae6fd">FRAUD GAP &amp; STATUTORY AUDIT COMPARISON</text>
+
+  <!-- Extortion Comparison Box -->
+  <rect x="534" y="234" width="402" height="110" rx="8" fill="#450a0a" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1" />
+  <text x="550" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#f87171">DEMANDED CORRUPT / FRAUDULENT FINE:</text>
+  <text x="550" y="292" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#fca5a5">₹20,000</text>
+  <text x="690" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#fecaca">Arbitrary cash demand</text>
+  <text x="690" y="298" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#fca5a5">No legal gazette • Threat of custody</text>
+
+  <!-- Statutory Law Comparison Box -->
+  <rect x="534" y="356" width="402" height="110" rx="8" fill="#042e20" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" />
+  <text x="550" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#34d399">ACTUAL STATUTORY MAXIMUM (SEC 138):</text>
+  <text x="550" y="414" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#6ee7b7">₹650 – ₹750</text>
+  <text x="730" y="402" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#d1fae5">Base Fare + ₹250 Cap</text>
+  <text x="730" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#a7f3d0">Mandatory Serialized EFT Receipt</text>
+
+  <!-- Calculated Fraud Delta -->
+  <rect x="534" y="478" width="402" height="46" rx="8" fill="#1e1b4b" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1" />
+  <text x="550" y="506" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#c7d2fe">Calculated Extortion Gap: ₹19,250 (Illegal Excess Demand)</text>
+</svg>

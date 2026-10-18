@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1d18" />
+      <stop offset="50%" stop-color="#0d2822" />
+      <stop offset="100%" stop-color="#081814" />
+    </linearGradient>
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11362e" />
+      <stop offset="100%" stop-color="#0c251f" />
+    </linearGradient>
+    <filter id="cardShadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="580" fill="url(#bgGrad3)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#10b981" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="60" x2="1000" y2="60" />
+    <line x1="0" y1="120" x2="1000" y2="120" />
+    <line x1="0" y1="180" x2="1000" y2="180" />
+    <line x1="0" y1="240" x2="1000" y2="240" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="0" y1="360" x2="1000" y2="360" />
+    <line x1="0" y1="420" x2="1000" y2="420" />
+    <line x1="0" y1="480" x2="1000" y2="480" />
+    <line x1="0" y1="540" x2="1000" y2="540" />
+  </g>
+
+  <!-- Step Header Banner -->
+  <rect x="40" y="24" width="920" height="56" rx="10" fill="#0d2e26" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <rect x="56" y="36" width="76" height="32" rx="6" fill="#10b981" />
+  <text x="94" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#04221b" text-anchor="middle">STEP 03</text>
+  <text x="146" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Comprehensive Anti-Fraud Verification Report View</text>
+  <rect x="780" y="38" width="164" height="28" rx="14" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+  <circle cx="796" cy="52" r="5" fill="#34d399" />
+  <text x="808" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#6ee7b7">Statutory Verified</text>
+
+  <!-- Main Report Card Frame -->
+  <rect x="40" y="96" width="920" height="452" rx="12" fill="url(#cardGrad3)" stroke="#10b981" stroke-opacity="0.35" stroke-width="1" filter="url(#cardShadow3)" />
+
+  <!-- Action Bar on Top of Report -->
+  <rect x="40" y="96" width="920" height="54" rx="12" fill="#0b241e" stroke="#10b981" stroke-opacity="0.2" stroke-width="1" />
+  
+  <!-- Alert Badge -->
+  <rect x="56" y="108" width="224" height="30" rx="6" fill="#450a0a" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1" />
+  <circle cx="72" cy="123" r="5" fill="#ef4444" />
+  <text x="84" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#fca5a5">🚨 HIGH EXTORTION ALERT</text>
+
+  <!-- Action Buttons -->
+  <rect x="630" y="108" width="86" height="30" rx="6" fill="#064e3b" stroke="#34d399" stroke-opacity="0.3" stroke-width="1" />
+  <text x="673" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a7f3d0" text-anchor="middle">📋 Copy</text>
+
+  <rect x="724" y="108" width="86" height="30" rx="6" fill="#064e3b" stroke="#34d399" stroke-opacity="0.3" stroke-width="1" />
+  <text x="767" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a7f3d0" text-anchor="middle">💾 Saved</text>
+
+  <rect x="818" y="108" width="126" height="30" rx="6" fill="#10b981" />
+  <text x="881" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#04221b" text-anchor="middle">🔊 Read Aloud</text>
+
+  <!-- Core Solution Banner (Highlighted) -->
+  <rect x="60" y="162" width="880" height="74" rx="10" fill="#043224" stroke="#10b981" stroke-width="1.5" />
+  <rect x="76" y="174" width="76" height="22" rx="4" fill="#10b981" />
+  <text x="114" y="189" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" fill="#04221b" text-anchor="middle">CORE ACTION</text>
+  <text x="162" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#6ee7b7">DO NOT PAY ₹20,000. Your statutory liability is only ₹650–₹750 total.</text>
+  <text x="76" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#ecfdf5">Under Section 138 of the Indian Railways Act 1989, pay only the Base Ticket Fare + ₹250 Statutory Excess Cap. Insist on a serialized Excess Fare Ticket (EFT) receipt before paying.</text>
+
+  <!-- Left Column: Legal Acts and Formula -->
+  <rect x="60" y="248" width="430" height="280" rx="10" fill="#08221c" stroke="#10b981" stroke-opacity="0.2" stroke-width="1" />
+  <text x="78" y="274" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#a7f3d0">⚖️ OFFICIAL GOVERNING LAWS &amp; SECTIONS</text>
+  
+  <rect x="78" y="288" width="394" height="46" rx="6" fill="#061c16" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" />
+  <text x="90" y="306" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#34d399">Section 138 of Indian Railways Act, 1989</text>
+  <text x="90" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Unauthorised traveling or traveling without proper pass or ticket.</text>
+
+  <rect x="78" y="342" width="394" height="46" rx="6" fill="#061c16" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" />
+  <text x="90" y="360" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#34d399">Section 137 vs 138 Distinction</text>
+  <text x="90" y="378" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Section 137 (Intent to defraud) requires court magistrate trial, NOT spot cash fines.</text>
+
+  <!-- Calculation Table -->
+  <text x="78" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#a7f3d0">🔢 STATUTORY PENALTY FORMULA</text>
+  <rect x="78" y="422" width="394" height="92" rx="6" fill="#061c16" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" />
+  <text x="92" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#cbd5e1">1. Distance Base Fare (Point of boarding to detection):</text>
+  <text x="440" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">₹450</text>
+  <text x="92" y="468" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#cbd5e1">2. Statutory Excess Charge (Cap fixed by gazette):</text>
+  <text x="440" y="468" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#6ee7b7" text-anchor="end">+ ₹250</text>
+  <line x1="92" y1="480" x2="440" y2="480" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <text x="92" y="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#34d399">LEGAL MAXIMUM PAYABLE ONLY:</text>
+  <text x="440" y="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#34d399" text-anchor="end">₹700 TOTAL</text>
+
+  <!-- Right Column: Mandatory Receipt & Government Sources -->
+  <rect x="510" y="248" width="430" height="280" rx="10" fill="#08221c" stroke="#10b981" stroke-opacity="0.2" stroke-width="1" />
+  <text x="528" y="274" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#a7f3d0">🛡️ CITIZEN SAFEGUARDS &amp; RECEIPT MANDATE</text>
+
+  <!-- EFT Receipt Requirement -->
+  <rect x="528" y="288" width="394" height="96" rx="6" fill="#04221b" stroke="#34d399" stroke-opacity="0.3" stroke-width="1" />
+  <text x="542" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#34d399">MANDATORY EXCESS FARE TICKET (EFT) RECEIPT</text>
+  <text x="542" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#ecfdf5">• The Ticket Collector (TTE/T.C) is required by law to issue an official</text>
+  <text x="542" y="348" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#ecfdf5">  serialized EFT printed or electronic receipt before collecting money.</text>
+  <text x="542" y="366" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#f87171">• Paying cash or personal UPI without EFT receipt is STRICTLY PROHIBITED.</text>
+
+  <!-- Citation Sources -->
+  <text x="528" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#a7f3d0">🔗 OFFICIAL REGULATORY CITATIONS</text>
+  <rect x="528" y="422" width="394" height="92" rx="6" fill="#061c16" stroke="#10b981" stroke-opacity="0.25" stroke-width="1" />
+  <text x="542" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8">↗ Indian Railways Gazette (indianrailways.gov.in)</text>
+  <text x="542" y="466" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8">↗ RailMadad Emergency Portal (railmadad.indianrailways.gov.in)</text>
+  <text x="542" y="488" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8">↗ Central Vigilance Commission Anti-Bribery circulars</text>
+  <text x="542" y="504" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8">Real-time statutory grounding verified with zero hallucinations.</text>
+</svg>
